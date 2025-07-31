@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"content="aki kawahara">
+    <meta name="keywords" content="html,css,javascript">
+     <link rel="stylesheet" href="./main.css">   
+    
+    <title>スポーツについて</title>
+
+
+        </head>
+<body>
+  <header>
+  
+<h1>スポーツ３選について</h1 id=top>
+<nav class="gnav">
+  <ul>
+<li><a href="../fainal kada/index.html">バレーボール</a></li>
+<li><a href="../fainal kada/a.html">バスケットボール</a></li>
+<li><a href="../fainal kada/b.html">サッカー</a></li>
+</ul>
+</nav>
+</header> 
+<main>
+  <section>
+    <h2></h2>
+  </section>
+</main>
+  <main>
+<section>
+  <h2>１，バレーボール</h2>
+  <p>バレーボールは、幅広い年代の方が行っているスポーツで老若男女に愛されるスポーツである。チームスポーツであり、６人制バレーボールと９人制バレーボールの２種類がある。</p>
+  <div>
+    <h3>ルールについて</h3>
+    <p>6人制の場合
+      ２チームがネットを挟み、ボールを３回以内に相手のコートに送りどちらかのコートにボールを落とさせた方が得点を得られるというスポーツである。チーム編成としては前衛３人後衛３人となっており、点が決まった時にローテーションをする。先に２５点を先取したほうが勝ちとなる。
+    </p>
+  </div>
+</section>
+  </main>
+  <section>
+    <main>
+      <h3>役割について</h3>
+        <p>
+      1.ポイントゲッター: コート内でボールを保持する時間が長いためコート上ではを司令塔と言われるポジションである。  </p>
+    <p>
+      2。:   コート内に２人おり主に相手からくる攻撃をブロックしたりセンターからの攻撃や守備を行うポジションである。
+    </p>
+    <p>
+      3,セッター : 攻撃の司令塔とされており、１回目に上がったボールを相手の状況を見ながらトスを上げるポジションである。
+    </p>
+    <p>
+      4.オポジット:  主にライト側の攻撃であったり、守備を行うポジションで、セッターと対角に位置している。
+    </p>
+    <p>
+      5.
+      リベロ : 後衛専門のポジションでサーブやアタックといった攻撃はできない。
+    </p>   
+</main>
+  </section>
+  <section>
+    <main>
+      <img src="img/sports_soft_volleyball.png" alt="バレーの写真" width="200" height="auto">
+    </main>
+  </section>
+  <main>
+    <form>
+    <section>
+      <h2> 質問フォーム</h2>
+      <form action="index.html" method="get"></form>
+    <div>
+<label for="">姓</label>
+      <input type="text"id="lastname"name="surneme"placeholder="山田">
+    
+         <label>
+          名：
+          <input type="text"id="lastname"name="surneme"placeholder="太郎">
+         </label>
+        </div>
+
+ <div>
+  <input type="radio"id="female"name="gender">
+  <label for="female">女性</label>
+  <input type="radio"id="male"name="gender">
+  <label for="male">男性</label>
+  <input type="radio"id="other"name="gender">
+  <label for="other">その他</label>
+  <input type="radio"id="none"name="gender">
+  <label for="none">その他</label>
+ </div>
+ <div>
+  <label for="remarks">質問内容</label>
+  <textarea name="remarks" id="remarks"cols="30"rows=10></textarea>
+ </div>   
+ <div>
+ <label for="email">メールアドレス：</label>
+  <input type="email"name="email"id="email">
+ </div> 
+ <div>
+  <input type="submit">
+  <input type="reset">
+  <input type="button" Value="ボタン押してね" id="send-data">
+
+</div>
+</form>
+    </section>
+   <hr>
+    <section>
+      <h2>受信データ</h2>
+      <div>
+        氏名：<span id="display-surname"></span><span id="display-firstname"></span>
+      </div>
+    </section>
+  </main>
+  <hr>
+  <div>
+<footer>
+    copyright &copy; aki kawahara,All Rights Reserved.
+  </footer>
+</div>
+  <script src="./main.js"></script>
+
+<script>
+ document.getElementById("send-data").onclick=function(){
+  const surname=document.getElementById("lastname").Value;
+  const firstneme=document.getElementById("firstname").Value;
+
+  document.getElementById("display-lastname").innerText=lastneme
+  document.getElementById("display-firstname").innerText=firstneme
+
+}
+
+</script>
+</body>
+</html>
