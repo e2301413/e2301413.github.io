@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+
+
+.gnav>ul>li{
+   font-style: italic;
+   font-size: 2ex;
+    display: inline;
+
+    margin: 0 8px 0 0;
+    padding: 8px 4px;
+    background-color: chartreuse;
+}
+
+h1{
+    font-style: normal;
+    background-color: deepskyblue;
+
+}
+
+h2{
+    background-color: chocolate;
+}
+h3{
+    background-color: darkgreen;
+}
